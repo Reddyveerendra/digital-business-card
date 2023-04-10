@@ -5,7 +5,7 @@ function Info() {
             <h5>Junior Front End Developer</h5>
             <h6>reddyveerendra535@gmail.com</h6>
             <div className="links">
-                <input type="button" value="Email" className="email" />
+                <input type="button" value="Email" className="email" onClick="reddyveerendra@gmail.com" />
                 <input type="button" value="LinkedIn" className="linkedin" />
             </div>
         </div>

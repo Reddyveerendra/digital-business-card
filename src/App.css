@@ -2,12 +2,13 @@
   margin: 0%;
 }
 .App {
-  width: 25vw;
+  width: 18vw;
   background-color: black;
   margin-top: 10%;
+  margin-bottom: 10%;
 }
 img {
-  height: 50vh;
+  height: 30vh;
   width: 100%;
 }
 .Info {

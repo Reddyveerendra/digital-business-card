@@ -1,25 +1,17 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
-
+import Info from "./Components/info.js";
+import About from "./Components/About.js"
+import Interest from "./Components/Interests";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src="https://raw.githubusercontent.com/Reddyveerendra/digital-business-card/main/src/images/profile_pic.jpg" alt="profile_pic" />
+      <Info />
+      <About />
+      <Interest />
     </div>
-  );
+  )
 }
 
 export default App;
